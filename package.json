@@ -1,0 +1,50 @@
+{
+  "name": "wechatlicai",
+  "description": "react learning demo project",
+  "version": "0.1.0",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fatfan/wechatlicai.git"
+  },
+  "author": {
+    "name": "fwh",
+    "email": "huaofw@163.com"
+  },
+  "scripts": {
+    "dev": "node sdcm/sdcm.main.dev.js /Users/estelle/work/webroot",
+    "test": "node sdcm/sdcm.main.js /Users/estelle/work/webroot",
+    "build": "node build/build.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.5",
+    "express": "^4.15.4",
+    "html-webpack-plugin": "^2.30.1",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^2.8.1",
+    "react-router-dom": "^4.1.2",
+    "redux": "^3.7.2",
+    "reload": "^2.2.1",
+    "rimraf": "^2.6.2",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.4.1",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-hot-middleware": "^2.18.2"
+  },
+  "dependencies": {
+    "material-ui": "^0.19.4",
+    "react-router": "^4.1.2",
+    "react-tap-event-plugin": "^3.0.2"
+  }
+}
