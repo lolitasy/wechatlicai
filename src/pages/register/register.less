@@ -1,0 +1,285 @@
+@rem: 0.01rem;
+@line-height: 1.05rem;
+@font-face {
+  font-family: 'iconfont';  /* project id 333529 */
+  src: url('//at.alicdn.com/t/font_ttf4ozpx59ltyb9.eot');
+  src: url('//at.alicdn.com/t/font_ttf4ozpx59ltyb9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_ttf4ozpx59ltyb9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_ttf4ozpx59ltyb9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_ttf4ozpx59ltyb9.svg#iconfont') format('svg');
+}
+.icon-right{
+	font-family: 'iconfont' !important;
+	color: #cfcfcf;
+	vertical-align: middle;
+}
+.icon-logo{
+	font-family: 'iconfont' !important;
+	color: #FF5A56;
+	font-size: 332*@rem;
+}
+.icon-close{
+	display: none;
+	font-family: 'iconfont' !important;
+	font-size: 0.4rem;
+	color: #cecece;
+	position: absolute;
+	top:0rem;
+	right: 0.3rem;
+}
+.icon-eye{
+	display: inline-block;
+	position: absolute;
+	top:0;
+	right: 0.3rem;
+	font-family: 'iconfont' !important;
+	color: #d1d1d1;
+	font-size: 40*@rem;
+}
+.ofh{overflow:hidden;}
+html,body{background-color: #fff;}
+// 注册
+input{
+	outline:none;
+}
+.m-firstStep{
+	position: relative;
+}
+.m-logo{
+	position: absolute;
+	top:-240*@rem;
+	left:50%;
+	margin-left: -166*@rem;
+}
+.m-message{
+	text-align: center;
+	font-size: 28*@rem;
+	color: #afafaf;
+	margin-top: 194*@rem;
+}
+.m-username{
+	position: relative;
+	height: 100*@rem;
+	line-height: 100*@rem;
+	margin-top: 34*@rem;
+	margin-bottom: 60*@rem;
+	border-top: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+	label{
+		color: #333;
+		margin-left: 30*@rem;
+		float: left;
+		font-size:32*@rem;
+	}
+	input{
+		width: 470*@rem;
+		padding-left:82*@rem;
+		height: 100*@rem;
+		line-height:100*@rem;
+		float: left;
+		font-size:32*@rem;
+	}
+}
+.u-btn{
+	width: 690*@rem;
+	height: 88*@rem;
+	margin: 0 auto 34*@rem;
+	padding: 0;
+	line-height: 88*@rem;
+	text-align: center;
+	color: #fff;
+	border-radius: 4px;
+	background-color: #ff5a56;
+	border: none;
+	font-size: 32*@rem;
+}
+.u-btn.disable{
+	pointer-events: none;
+	background-color: #cecece;
+}
+.u-skip{
+	text-align: center;
+	font-size: 28*@rem;
+	color: #666;
+	a{
+		color: #4c8cf8;
+	}
+}
+.m-accept{
+	margin-top: 4rem;
+	text-align: center;
+	span{
+		font-size: 26*@rem;
+		color: #333;
+	}
+	a{
+		color: #4c8cf8;
+	}
+	em{
+		font-family: 'iconfont' !important;
+		font-size: 0.3rem;
+		color: #cecece;
+	}
+}
+.m-nextStep{
+	.u-phonecode{
+		font-size: 26*@rem;
+		color: #666;
+		margin: 34*@rem 0 20*@rem 30*@rem;
+	}
+	.m-input,.invitor{
+		background-color: #fff;
+		border-top: 1px solid #e8e8e8;
+		border-bottom: 1px solid #e8e8e8;
+		.valicode,.password{
+			margin-left: 30*@rem;
+			height: 98*@rem;
+			line-height: 98*@rem;
+			color: #333;
+			font-size: 32*@rem;
+			label{
+				display: inline-block;
+				width: 210*@rem;
+			}
+			input{
+				height: 90*@rem;
+				line-height: 90*@rem;
+				color: #333;
+				font-size: 32*@rem;
+			}
+		}
+		.valicode{
+			background-color: #fff;
+			border-bottom: 1px solid #e8e8e8;
+			.u-valicode{
+				font-size: 28*@rem;
+				color: #4c8cf8;
+			}
+			.u-time{
+				font-size: 28*@rem;
+				color: #999;
+			}
+		}
+	}
+	.invitor{
+		padding-left: 30*@rem;
+		margin-top: 20*@rem;
+		margin-bottom: 40*@rem;
+		height: 98*@rem;
+		line-height: 98*@rem;
+		color: #333;
+		font-size: 32*@rem;
+		label{
+			display: inline-block;
+			width: 210*@rem;
+		}
+		input{
+			width: 500*@rem;
+			height: 90*@rem;
+			line-height: 90*@rem;
+			color: #333;
+			font-size: 32*@rem;
+		}
+	}
+}
+.m-autocomplete{
+	position: fixed;
+	top:-200px;
+}
+.password{
+	position: relative;
+}
+.g-mask{
+	position: fixed;
+	top:0;
+	width: 750*@rem;
+	height: 100%;
+	background: rgba(0,0,0,0.50);
+	.m-con-mask{
+		width: 670*@rem;
+		height: 366*@rem;
+		border-radius: 4px;
+		background-color: #fff;
+		margin: 484*@rem auto 0;
+		.u-tit{
+			height: 90*@rem;
+			line-height: 90*@rem;
+			text-align: center;
+			font-size: 36*@rem;
+			color: #333;
+			border-bottom: 1px solid #e8e8e8;
+		}
+		.u-con{
+			margin: 60*@rem 44*@rem 58*@rem 44*@rem;
+			font-size: 30*@rem;
+			color: #666;
+			text-align: center;
+		}
+		.m-btn{
+			height: 88*@rem;
+			line-height: 88*@rem;
+			font-size: 32*@rem;
+			text-align: center;
+		}
+		.u-wait{
+			width: 335*@rem;
+			background-color: #e4e4e4;
+			color: #333;
+			border-bottom-left-radius: 4px;
+		}
+		.u-sure{
+			width: 335*@rem;
+			background-color: #ff5959;
+			color: #fff;
+			border-bottom-right-radius: 4px;
+		}
+	}
+}
+//注册成功
+.g-hd{
+	position: relative;
+	em{
+		position: absolute;
+		top:24*@rem;
+		right: 30*@rem;
+		font-size: 32*@rem;
+		color: #333;
+	}
+}
+.g-register-suc,.g-bankcard-suc{
+	.u-suctit{
+		margin:28*@rem auto 10*@rem;
+		text-align: center;
+		font-size: 30*@rem;
+		color: #333;
+	}
+	img{
+		display: block;
+		margin: 0 auto;
+		width: 682*@rem;
+		height: 308*@rem;
+	}
+	.m-bankcard-register,.m-invest-register,.m-bankcard-bankcard,.m-invest-bankcard{
+		height: 98*@rem;
+		line-height: 98*@rem;
+		padding: 0 30*@rem;
+		border-top: 1px solid #e8e8e8;
+		font-size: 32*@rem;
+		color: #333;
+		.u-prize{
+			font-size: 28*@rem;
+			color: #666;
+		}
+	}
+	.m-invest-register,.m-invest-bankcard{
+		border-bottom: 1px solid #e8e8e8;
+	}
+}
+.g-bankcard-suc{
+	img{
+		display: block;
+		margin: 32*@rem auto 28*@rem;
+		width: 352*@rem;
+		height: 260*@rem;
+	}
+}

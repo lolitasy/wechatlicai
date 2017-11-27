@@ -1,0 +1,116 @@
+.menu {
+  margin-top: 0.2rem;
+  background-color: #ffffff;
+  border-top: 2px solid #e8e8e8;
+  border-bottom: 2px solid #e8e8e8;
+}
+.menu-item {
+  position: relative;
+  display: block;
+  height: 0.96rem;
+  padding-left: 0.3rem;
+  color: #333333;
+  font-size: 0.28rem;
+  line-height: 0.96rem;
+  text-decoration: none;
+}
+.menu-item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0.3rem;
+  border-bottom: 2px solid #e8e8e8;
+}
+.menu-item .menu-right {
+  position: absolute;
+  right: 0.6rem;
+  color: inherit;
+  font-size: inherit;
+  text-decoration: inherit;
+}
+.icon {
+  display: inline-block;
+  vertical-align: top;
+  background-image: url(https://icdn.cnaidai.com/aidai/webchat/static/img/sprite.png);
+  background-repeat: no-repeat;
+  background-size: 7.56rem 2.6rem;
+}
+.icon-activity {
+  margin-top: 0.31rem;
+  margin-right: 0.08rem;
+  height: 0.36rem;
+  width: 0.32rem;
+  background-position: -2.38rem -1.4rem;
+}
+.icon-notice {
+  margin-top: 0.32rem;
+  margin-right: 0.04rem;
+  height: 0.34rem;
+  width: 0.36rem;
+  background-position: -0.62rem -1.41rem;
+}
+.icon-safe {
+  margin-top: 0.3rem;
+  margin-right: 0.02rem;
+  height: 0.38rem;
+  width: 0.38rem;
+  background-position: -3.6rem -1.39rem;
+}
+.icon-invite {
+  margin-top: 0.295rem;
+  margin-right: 0.01rem;
+  height: 0.39rem;
+  width: 0.39rem;
+  background-position: -0.17rem -1.36rem;
+}
+.icon-help {
+  margin-top: 0.29rem;
+  margin-right: 0rem;
+  height: 0.4rem;
+  width: 0.4rem;
+  background-position: -3.17rem -1.38rem;
+}
+.icon-settings {
+  margin-top: 0.295rem;
+  margin-right: -0.01rem;
+  height: 0.39rem;
+  width: 0.41rem;
+  background-position: -1.03rem -1.38rem;
+}
+.icon-intro {
+  margin-top: 0.305rem;
+  margin-right: -0.01rem;
+  height: 0.37rem;
+  width: 0.41rem;
+  background-position: -1.48rem -1.36rem;
+}
+.icon-telephone {
+  margin-top: 0.29rem;
+  margin-right: 0rem;
+  height: 0.4rem;
+  width: 0.4rem;
+  background-position: -1.94rem -1.38rem;
+}
+.icon-qq {
+  margin-top: 0.29rem;
+  margin-right: -0.01rem;
+  height: 0.4rem;
+  width: 0.41rem;
+  background-position: -2.73rem -1.38rem;
+}
+.icon-1 {
+  background-image: url(https://icdn.cnaidai.com/aidai/webchat/static/img/mine/mineIndex.png);
+  background-repeat: no-repeat;
+  background-size: 2rem 1.1rem;
+}
+.icon-right-arrow {
+  position: absolute;
+  right: 0.28rem;
+  top: 50%;
+  display: block;
+  height: 0.24rem;
+  width: 0.13rem;
+  background-position: -1.63rem -0.74rem;
+  transform: translateY(-50%);
+}

@@ -1,0 +1,120 @@
+@rem: 0.01rem;
+.menu {
+    margin-top: 20 * @rem;
+
+    background-color: #ffffff;
+
+    border-top: 2px solid #e8e8e8;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+.menu-item {
+    position: relative;
+
+    display: block;
+
+    height: 96 * @rem;
+
+    padding-left: 30 * @rem;
+
+    color: #333333;
+    font-size: 28 * @rem;
+    line-height: 96 * @rem;
+    text-decoration: none;
+
+    &:not(:last-child)::after {
+        content: "";
+
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 30 * @rem;
+
+        border-bottom: 2px solid #e8e8e8;
+    }
+
+    .menu-right {
+        position: absolute;
+
+        right: 60 * @rem;
+
+        color: inherit;
+        font-size: inherit;
+        text-decoration: inherit;
+    }
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: top;
+
+    background-image: url(https://icdn.cnaidai.com/aidai/webchat/static/img/sprite.png);
+    background-repeat: no-repeat;
+    background-size: 756 * @rem 260 * @rem;
+}
+
+.icon-position(@x, @y, @width, @height) {
+    margin-top: (98 - @height) / 2 * @rem;
+    margin-right: (40 - @width) * @rem;
+
+    height: @height * @rem;
+    width: @width * @rem;
+
+    background-position: -@x * @rem -@y * @rem;
+}
+
+.icon-activity {
+    .icon-position(238, 140, 32, 36);
+}
+
+.icon-notice {
+    .icon-position(62, 141, 36, 34);
+}
+
+.icon-safe {
+    .icon-position(360, 139, 38, 38);
+}
+
+.icon-invite {
+    .icon-position(17, 136, 39, 39);
+}
+
+.icon-help {
+    .icon-position(317, 138, 40, 40);
+}
+
+.icon-settings {
+    .icon-position(103, 138, 41, 39);
+}
+
+.icon-intro {
+    .icon-position(148, 136, 41, 37);
+}
+
+.icon-telephone {
+    .icon-position(194, 138, 40, 40);
+}
+
+.icon-qq {
+    .icon-position(273, 138, 41, 40);
+}
+
+.icon-1 {
+    background-image: url(https://icdn.cnaidai.com/aidai/webchat/static/img/mine/mineIndex.png);
+    background-repeat: no-repeat;
+    background-size: 200 * @rem 110 * @rem;
+}
+
+.icon-right-arrow {
+    position: absolute;
+    right: 28 * @rem;
+    top: 50%;
+
+    display: block;
+    height: 24 * @rem;
+    width: 13 * @rem;
+
+    background-position: -163 * @rem -74 * @rem;
+
+    transform: translateY(-50%);
+}
